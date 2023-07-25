@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include ceb.role_ans_audit"
+      include_role:
+        name: "ceb.role_ans_audit"
